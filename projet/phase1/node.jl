@@ -6,8 +6,6 @@ abstract type AbstractNode{T} end
 """Type représentant les noeuds d'un graphe.
 
 Exemple:
-
-
         noeud = Node("James", [π, exp(1)])
         noeud = Node("Kirk", "guitar")
         noeud = Node("Lars", 2)
