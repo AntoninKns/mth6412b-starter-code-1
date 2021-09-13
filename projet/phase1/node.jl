@@ -26,8 +26,8 @@ name(node::AbstractNode) = node.name
 data(node::AbstractNode) = node.data
 
 """Affiche un noeud."""
-function show(node::AbstractNode)
+function show(node::AbstractNodes)
   println("Node ", name(node), ", data: ", data(node))
 end
 
-"""Ajout commentaire inutile test-branch-2"""
+"""Ajout commentaire inutile test-branch"""
